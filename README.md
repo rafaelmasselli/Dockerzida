@@ -21,8 +21,8 @@ $ git clone https://github.com/rafaelmasselli/Dockerzida
 
 ### Inicie primeiro o projeto back-end
 
-[Documentação do Back-end](https://github.com/rafaelmasselli/Dockerizada/server)
+[Documentação do Back-end](https://github.com/rafaelmasselli/Dockerizada/tree/master/server)
 
 ### Com o back-end rodando incie o Front-end
 
-[Documentação do Front-end](https://github.com/rafaelmasselli/Dockerizada/client)
+[Documentação do Front-end](https://github.com/rafaelmasselli/Dockerizada/tree/master/client)
