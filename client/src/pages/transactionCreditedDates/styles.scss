@@ -1,0 +1,27 @@
+.container__transactions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-x: auto;
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .text__transaction {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    svg {
+      font-size: 30px;
+    }
+  }
+}

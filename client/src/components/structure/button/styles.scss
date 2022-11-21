@@ -1,0 +1,27 @@
+$primary: #5d5f5f;
+$secondary: #f8f8f8;
+$white: rgb(22, 21, 21);
+$gray: #9b9b9b;
+
+.btn__signIn {
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+
+  border: none;
+  padding: 15px 120px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+
+  background: $primary;
+  color: $secondary;
+
+  &:hover {
+    transition: 0.5s;
+    background: $gray;
+    color: $white;
+  }
+}
+

@@ -1,0 +1,8 @@
+-- AlterTable
+ALTER TABLE "Accounts" ALTER COLUMN "balance" SET DATA TYPE DOUBLE PRECISION;
+
+-- AlterTable
+ALTER TABLE "TransactionsCredited" ALTER COLUMN "value" SET DATA TYPE DOUBLE PRECISION;
+
+-- AlterTable
+ALTER TABLE "TransactionsDebited" ALTER COLUMN "value" SET DATA TYPE DOUBLE PRECISION;

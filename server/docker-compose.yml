@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+ dockerizada:
+  image: postgres:alpine
+  ports:
+  - '5432:5432'
+  container_name: 'dockerizada'
+  restart: always
+  volumes:
+   - dockerizada-data:/var/lib/postgresql/data
+  environment:
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: jklv1234
+
+volumes:
+ dockerizada-data:

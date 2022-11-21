@@ -1,0 +1,46 @@
+.container__box__form__register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-top: 100px;
+
+  .box__form {
+    width: 400px;
+    height: 450px;
+
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    flex-direction: column;
+
+    h1 {
+      font-size: 25px;
+      font-weight: 700;
+    }
+  }
+  form {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+  }
+
+  .container__securePassword {
+    margin: 10px -0px;
+    align-items: center;
+    color: red;
+  }
+}
+
+@media (max-width: 468px) {
+  .container__box__form__register {
+    margin-top: 100px;
+    .box__form {
+      width: 330px;
+      height: 400px;
+    }
+  }
+}

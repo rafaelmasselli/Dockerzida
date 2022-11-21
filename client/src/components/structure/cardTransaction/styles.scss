@@ -1,0 +1,59 @@
+.card__transaction {
+  width: 280px;
+  height: 180px;
+  margin: 30px;
+  transition: 0.5s;
+
+  background: white;
+
+  border: 8px solid #000000;
+  box-shadow: 16px 12px 0px #000000;
+  cursor: pointer;
+
+  &:hover {
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    transition: 0.5s;
+  }
+
+  .box__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+  }
+
+  .container__circle__card {
+    display: flex;
+  }
+
+  .circle__card {
+    margin: 5px;
+    width: 17px;
+    height: 17px;
+    border-radius: 100px;
+    border: 3px solid white;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .header__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 46px;
+
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+  }
+
+  img {
+    margin: 10px;
+  }
+}
