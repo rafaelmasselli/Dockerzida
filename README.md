@@ -1,6 +1,14 @@
-<h1 align="center"> Projeto dockerizada</h1>
+<h1 align="center"> 👾 Projeto dockerizada 👾</h1>
 
-## 🗒️ Requisitos para iniciar o projeto
+
+### Descrição do projeto 🚀
+
+
+#### Trata-se de um projeto que simula uma plataforma para realização de transações de entrada e saída de dinheiro, conhecidas como "cash in" e "cash out". Nestas modalidades, há a diluição do capital dos sócios existentes, o que significa que a participação percentual de um sócio na sociedade será reduzida.
+
+#### No caso do "cash in", os acionistas anteriores mantêm a mesma quantidade de ações, porém, passam a deter uma porcentagem menor do total.
+
+### Requisitos para iniciar o projeto 📑
 
 - [IDE](https://code.visualstudio.com/)
 
@@ -12,17 +20,17 @@
 
 - [PostgreSQL](https://www.postgresql.org/download/)
 
-## ☕ Iniciando o projeto
+### Iniciando o projeto ☕ 
 
 ```bash
 ## Clone o projeto
 $ git clone https://github.com/rafaelmasselli/Dockerzida
 ```
 
-### Inicie primeiro o projeto Back-end
+#### Inicie primeiro o projeto Back-end
 
 [Documentação do Back-end](https://github.com/rafaelmasselli/Dockerizada/tree/master/server)
 
-### Com o back-end rodando incie o Front-end
+#### Com o back-end rodando incie o Front-end
 
 [Documentação do Front-end](https://github.com/rafaelmasselli/Dockerizada/tree/master/client)
