@@ -1,16 +1,15 @@
 <h1 align="center"> ⭐ Front-end dockerizada ⭐</h1>
 
-## 🗒️ Requisitos para iniciar o projeto
+### 🗒️ Requisitos para iniciar o projeto
 
-### - [IDE](https://code.visualstudio.com/)
+[IDE](https://code.visualstudio.com/)
 
-### - [Git](https://git-scm.com/)
+[Git](https://git-scm.com/)
 
-### - [Node JS](https://nodejs.org/en/)
+[Node JS](https://nodejs.org/en/)
 
-<hr>
 
-## ☕ Iniciando o projeto
+### Iniciando o projeto 🚀
 
 ```bash
 ## Com o back-end rodando.
@@ -28,16 +27,15 @@ $ yarn dev
 
 ![print do projeto front-end](./.github/Screenshot_front-end.png)
 
-<hr>
 
-## ⭐ Dependências usadas no projeto
+### Dependências usadas no projeto
 
-### - React TypeScript
+- React TypeScript
 
-### - Sass
+- Sass
 
-### - React icons
+- React icons
 
-### - React-modal
+- React-modal
 
-### - Axios
+- Axios
